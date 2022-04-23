@@ -71,11 +71,8 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(str1 === str2) {
-    return true;
-  } else {
-    return false;
-  }
+  return str1.length === str2.length;
+
 }
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
@@ -94,7 +91,7 @@ function mayorQueCincuenta(num) {
   // Tu código:
   if(num > 50) {
     return true; 
-  } else {
+  } else { 
     return false;
   }
 }
@@ -248,7 +245,7 @@ function esVocal(letra){
     return "Dato incorrecto";
   }
   }
-}
+
 
 
 
